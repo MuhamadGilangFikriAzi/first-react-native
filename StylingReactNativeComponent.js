@@ -4,7 +4,7 @@ import mac from './mac.jpeg';
 
 const Product = () => {
     return (
-      <View style={{padding: 12, backgroundColor: '#e8e8e8', width: 212, borderRadius: 8}} >
+      <View style={{padding: 12, backgroundColor: '#e8e8e8', width: 212, borderRadius: 8, margin: 10}} >
           <Image source={mac} style={{ width: 188, height: 107, borderRadius: 8 }} />
           <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 16 }}>Mac Baru</Text>
           <Text style={{
