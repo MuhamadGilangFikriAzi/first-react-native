@@ -1,8 +1,8 @@
 import React from 'react'
 import { Image, StyleSheet, Text, TextInput, View } from 'react-native'
-import cart from './cart.png';
+import cart from '../../assets/icons/cart.png';
 
-export default function PositionReactNative() {
+export default function PositionComponent() {
     return (
         <View style={styles.wrapper}>
             <View style={styles.cartWrapper}>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Image, Text, TextInput, View } from "react-native";
+import { Image, Text, View } from "react-native";
 
 export default class FlaxBox extends Component{
     render() {

@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
-import mac from './mac.jpeg';
+import mac from '../../assets/images/mac.jpeg';
 
-const Product = () => {
+const StylingComponent = () => {
     return (
       <View style={{padding: 12, backgroundColor: '#e8e8e8', width: 212, borderRadius: 8, margin: 10}} >
           <Image source={mac} style={{ width: 188, height: 107, borderRadius: 8 }} />
@@ -47,4 +47,4 @@ const Product = () => {
     }
   });
   
-export default Product;
+export default StylingComponent;
