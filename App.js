@@ -3,6 +3,7 @@ import { Text, View, ScrollView } from 'react-native';
 import SampleComponent from './sampleComponent';
 import Product from './StylingReactNativeComponent';
 import FlexBox from './FlexBox';
+import PositionReactNative from './PositionReactNative';
 
 const App = () => {
   return <StylingReactNative />
@@ -13,10 +14,11 @@ const StylingReactNative = () => {
     <View>         
       {/* <Product /> */}
       <ScrollView>
-        {/* <SampleComponent /> */}
-        {/* <Product />
-        <Product /> */}
+        {/* <SampleComponent /> */}        
         <FlexBox />
+        <PositionReactNative />
+        <Product />
+        <Product />
       </ScrollView>
     </View>
 
